@@ -15,6 +15,7 @@ gem 'haml', '~> 4.0.6'
 gem 'bootstrap-sass'
 gem 'simple_form', '~> 3.1.0'
 gem 'devise'
+gem 'paperclip'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
