@@ -12,11 +12,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 gem 'haml', '~> 4.0.6'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'autoprefixer-rails'
 gem 'simple_form', '~> 3.1.0'
 gem 'devise'
 gem 'paperclip'
 gem 'masonry-rails'
+gem 'acts_as_votable'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 

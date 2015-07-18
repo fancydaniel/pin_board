@@ -8,6 +8,9 @@ Bundler.require(*Rails.groups)
 
 module PinBoard
   class Application < Rails::Application
+    # config.assets.paths << "#{Rails}/vendor/assets/fonts"
+    # For Bootstrap Sass
+    # config.assets.precompile = config.assets.precompile + %w(*.png *.jpg *.jpeg *.gif *.woff *.ttf *.svg *.eot)
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
